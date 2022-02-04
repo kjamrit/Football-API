@@ -1,0 +1,30 @@
+id,Name,Area/Country,Available Seasons,Tier
+2024,Liga Profesional,Argentina,4,TIER_TWO
+2008,A League,Australia,5,TIER_TWO
+2022,Playoffs 1/2,Austria,1,TIER_TWO
+2009,Jupiler Pro League,Belgium,5,TIER_TWO
+2013,Campeonato Brasileiro Série A,Brazil,5,TIER_ONE
+2055,FA Cup,England,5,TIER_TWO
+2030,League One,England,13,TIER_TWO
+2016,Championship,England,5,TIER_ONE
+2021,Premier League,England,123,TIER_ONE
+2146,UEFA Europa League,Europe,4,TIER_TWO
+2001,UEFA Champions League,Europe,21,TIER_ONE
+2018,European Championship,Europe,16,TIER_ONE
+2142,Ligue 2,France,24,TIER_TWO
+2015,Ligue 1,France,78,TIER_ONE
+2011,DFB-Pokal,Germany,66,TIER_TWO
+2004,2. Bundesliga,Germany,26,TIER_TWO
+2002,Bundesliga,Germany,59,TIER_ONE
+2121,Serie B,Italy,17,TIER_TWO
+2019,Serie A,Italy,62,TIER_ONE
+2119,J. League,Japan,5,TIER_TWO
+2003,Eredivisie,Netherlands,66,TIER_ONE
+2017,Primeira Liga,Portugal,73,TIER_ONE
+2137,RFPL,Russia,5,TIER_TWO
+2084,Premier League,Scotland,108,TIER_TWO
+2152,Copa Libertadores,South America,2,TIER_ONE
+2077,Segunda División,Spain,10,TIER_TWO
+2014,Primera Division,Spain,89,TIER_ONE
+2145,MLS,United States,3,TIER_TWO
+2000,FIFA World Cup,World,21,TIER_ONE
