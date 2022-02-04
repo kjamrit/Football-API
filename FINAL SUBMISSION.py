@@ -17,13 +17,15 @@ fields=['id','Name','Area/Country','Available Seasons','Tier']
 rows=[]
 
 for i in response["competitions"]:
-    instance=[]
-    instance.append(i["id"])
-    instance.append(i["name"])
-    instance.append(i["area"]["name"])
-    instance.append(i["numberOfAvailableSeasons"])
-    instance.append(i["plan"])
-    rows.append(instance)
+    p=i["plan"]
+    if p==plan:
+        instance=[]
+        instance.append(i["id"])
+        instance.append(i["name"])
+        instance.append(i["area"]["name"])
+        instance.append(i["numberOfAvailableSeasons"])
+        instance.append(i["plan"])
+        rows.append(instance)
 
 
 with open('footballdata.csv', 'w') as d:
@@ -32,3 +34,4 @@ with open('footballdata.csv', 'w') as d:
     csvwriter.writerows(rows)
 
 print(finalurl)
+
