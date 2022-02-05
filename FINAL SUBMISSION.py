@@ -33,6 +33,5 @@ with open('footballdata.csv', 'w') as d:
     csvwriter.writerow(fields)
     csvwriter.writerows(rows)
 
-print(finalurl)
 
 #SUBMISSION BY: AMRIT KUMAR JHA 
